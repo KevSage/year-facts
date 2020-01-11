@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        #fact {
+            display:none
+        }
+    </style>
+    <title>Year Facts</title>
+</head>
+<body class = "bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-info text-white mt-5 p-4">
+                    <h1>Year Facts</h1>
+                    <p>Enter a year and receive a fact about that year.</p>
+                    <input type="number" id = "year-input" placeholder = "Enter a year" class = 'form-contol form-control-lg'>
+                    <div id="fact" class = "card-body">
+                        <h4 class="card-title">Year Fact</h4>
+                        <p id="year-text" class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
